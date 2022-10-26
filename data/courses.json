@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "hf7yrj46eh",
+        "category_id": "01",
+        "title": "Data Structures",
+        "image_url": "https://www.synergisticit.com/wp-content/uploads/2020/09/How-Data-Structures-and-Algorithms-are-important-for-Computer-Science-Graduates.jpg",
+        "details": "A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing data. There are different basic and advanced types of data structures that are used in almost every program or software system that has been developed. So we must have good knowledge about data structures. "
+    },
+    {
+        "_id": "j874ydt3g5",
+        "category_id": "02",
+        "title": "Object-Oriented Programming",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyCRGlW5MktEzSl5-v8SMj4PPne-HrgfmE2g&usqp=CAU",
+        "details": "Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior. OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. This includes programs for manufacturing and design, as well as mobile applications; for example, OOP can be used for manufacturing system simulation software. The organization of an object-oriented program also makes the method beneficial to collaborative development, where projects are divided into groups. Additional benefits of OOP include code reusability, scalability and efficiency. "
+    },
+    {
+        "_id": "fkdu64937",
+        "category_id": "03",
+        "title": "Discrete Mathematics",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcCVb3THADcXZqBXKSdm_cWLAY4KmEcHTUfg&usqp=CAU",
+        "details": "Discrete mathematics is the foundation of computer science. It focuses on concepts and reasoning methods that are studied using math notations. It has long been argued that discrete math is better taught with programming, which takes concepts and computing methods and turns them into executable programs. What has been lacking is a principled approach that supports all central concepts of discrete math -- especially predicate logic -- and that directly and precisely connects math notations with executable programs. This paper introduces such an approach. It is based on the use of a powerful language that extends the Python programming language with proper logic quantification (for all and exists some), as well as declarative set comprehension (also known as set builder) and aggregation (e.g., sum and product). Math and logical statements can be expressed precisely at a high level and be executed directly on a computer, encouraging declarative programming together with algorithmic programming. We describe the approach, detailed examples, experience in using it, and the lessons learned. "
+    },
+    {
+        "_id": "kl947fnhy",
+        "category_id": "04",
+        "title": "Algorithm Analysis and Design",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdPd-3SCtIAIv7XGHMgqL452yosVlLR8BGjA&usqp=CAU",
+        "details": "Algorithm analysis is an important part of computational complexity theory, which provides theoretical estimation for the required resources of an algorithm to solve a specific computational problem. Analysis of algorithms is the determination of the amount of time and space resources required to execute it."
+    },
+    {
+        "_id": "j7dyhrg4je",
+        "category_id": "05",
+        "title": "Cryptography",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUv7g2JrV5WaRCS49qlKdLes_EB8-yIo6ERQ&usqp=CAU",
+        "details": "Cryptography is the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents. The term is derived from the Greek word kryptos, which means hidden. It is closely associated to encryption, which is the act of scrambling ordinary text into what's known as ciphertext and then back again upon arrival. In addition, cryptography also covers the obfuscation of information in images using techniques such as microdots or merging. Ancient Egyptians were known to use these methods in complex hieroglyphics, and Roman Emperor Julius Caesar is credited with using one of the first modern ciphers. When transmitting electronic data, the most common use of cryptography is to encrypt and decrypt email and other plain-text messages. The simplest method uses the symmetric or secret key system. Here, data is encrypted using a secret key, and then both the encoded message and secret key are sent to the recipient for decryption. The problem? If the message is intercepted, a third party has everything they need to decrypt and read the message. To address this issue, cryptologists devised the asymmetric or public key system. In this case, every user has two keys: one public and one private. Senders request the public key of their intended recipient, encrypt the message and send it along. When the message arrives, only the recipient's private key will decode it — meaning theft is of no use without the corresponding private key."
+    },
+    {
+        "_id": "d2esqg65rf",
+        "category_id": "06",
+        "title": "Network Security",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUiMqz23O-Zdv6-bSn8uaSF592YZ6as5Sh3Q&usqp=CAU",
+        "details": "Network Security protects your network and data from breaches, intrusions and other threats. This is a vast and overarching term that describes hardware and software solutions as well as processes or rules and configurations relating to network use, accessibility, and overall threat protection. Network Security involves access control, virus and antivirus software, application security, network analytics, types of network-related security (endpoint, web, wireless), firewalls, VPN encryption and more."
+    }
+]

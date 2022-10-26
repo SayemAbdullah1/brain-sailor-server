@@ -1,0 +1,26 @@
+[
+    {
+        "id": "01",
+        "name": "Data Structures"
+    },
+    {
+        "id": "02",
+        "name": "Object-Oriented Programming"
+    },
+    {
+        "id": "03",
+        "name": "Discrete Mathematics"
+    },
+    {
+        "id": "04",
+        "name": "Algorithm Analysis and Design"
+    },
+    {
+        "id": "05",
+        "name": "Cryptography"
+    },
+    {
+        "id": "06",
+        "name": "Network Security"
+    }
+]
