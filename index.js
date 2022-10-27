@@ -5,14 +5,21 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-const category = require('./data/course_category.json');
+const categories = require('./data/course_category.json')
 const courses = require('./data/courses.json')
 
 app.get('/', (req, res) => {
-    res.send('News API running')
+    res.send('Courses API running')
 });
+
 app.get('/course-category', (req, res) => {
-    res.send(category)
+    res.send(categories)
+})
+app.get('/course-category/:id', (req, res) => {
+    const id = req.params.id;
+    // res.send(courses)
+    const category_course = courses.find(n => n.category_id == id)
+    res.send(category_course)
 })
 
 app.get('/courses', (req, res) => {
@@ -25,5 +32,5 @@ app.get('/courses/:id', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Dragon News server running on port', port)
+    console.log('Brain sailor server running on port', port)
 })
